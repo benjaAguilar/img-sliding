@@ -26,11 +26,11 @@ module.exports = {
         type: 'asset/resource',
       },
     ],
-    plugins: [
-      new HtmlWebpackPlugin({
-        title: 'html',
-        template: './src/index.html',
-      }),
-    ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'html',
+      template: './src/index.html',
+    }),
+  ],
 };
